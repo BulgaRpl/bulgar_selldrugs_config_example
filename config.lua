@@ -60,6 +60,9 @@ Config.Progressbar = false
 Config.SellTimeMin = 8000 -- 8 Seconds
 Config.SellTimeMax = 15000 -- 15 Seconds
 
+-- Currency
+Config.CurrencyType = 0 -- VORP ONLY ( 0 = money, 1 = gold, 2 = rol )
+
 -- Drug items settings
 Config.Drugs = {
     {
