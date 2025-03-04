@@ -8,7 +8,7 @@
 -- In the example config some settings have been removed that you will get only after getting the script 
 
 -- Needed Dependencies to use this script: vorp_menu
--- Optional Dependencies: syn_society, vorp_progressbar, fred_metabolism
+-- Optional Dependencies: syn_society, vorp_progressbar, fred_metabolism, outsider_needs
 
 Config = {}
 
@@ -43,6 +43,9 @@ Config.SynSociety = false
 -- Use fred_metabolism for stress?
 Config.FredMetabolism = false
 
+-- Use outsider_needs for stress?
+Config.OutsiderMetabolism = false
+
 -- Interaction distance for NPC + Some Settings
 Config.HoldKey = 0x760A9C6F -- G
 Config.SellKey = 0xF84FA74F -- MOUSE 2
@@ -75,7 +78,7 @@ Config.Drugs = {
 		ChanceToBuy = 50, -- 50% Chance to buy this drug from you
 		CallSheriffChance = 50, -- 50% Chance to allert sheriff when NPC deny, 0 wil disable allerts also
 		CallSheriffChanceSuccess = 5, -- 5% Chance to allert sheriff when NPC Success, set to 0 if u only want allert on deny
-		fredstress = -5 -- Setup Stress if u want for Config.FredMetabolism on selling illegal stuff, legal wil not use stress
+		fredstress = -5 -- Setup Stress if u want for Config.FredMetabolism or Config.OutsiderMetabolism on selling illegal stuff, legal wil not use stress
     },
 	{
         item = "EXAMPLEITEM2", -- Drug Item Name
