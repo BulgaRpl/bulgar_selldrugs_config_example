@@ -40,6 +40,9 @@ Config.AllowPoliceJobsToSell = true -- Allow these jobs to also sell illegal dru
 -- Use synSociety? (This will only allert + count only on duty sheriffs if using synSociety)
 Config.SynSociety = false
 
+-- Use brew_society? (This will only allert + count only on duty sheriffs if using brew_society)
+Config.BrewSociety = false
+
 -- Use fred_metabolism for stress?
 Config.FredMetabolism = false
 
