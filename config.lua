@@ -8,7 +8,7 @@
 -- In the example config some settings have been removed that you will get only after getting the script 
 
 -- Needed Dependencies to use this script: vorp_menu
--- Optional Dependencies: syn_society, vorp_progressbar, fred_metabolism, outsider_needs
+-- Optional Dependencies: syn_society, brew_society, vorp_progressbar, fred_metabolism, outsider_needs
 
 Config = {}
 
