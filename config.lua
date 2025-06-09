@@ -43,6 +43,9 @@ Config.SynSociety = false
 -- Use brew_society? (This will only allert + count only on duty sheriffs if using brew_society)
 Config.BrewSociety = false
 
+-- Use rsgDuty? (This will only allert + count only on duty sheriffs if using RSG Framework duty system)
+Config.rsgDuty = false -- // SETTING AVAIBLE IN RSG VERSION
+
 -- Use fred_metabolism for stress?
 Config.FredMetabolism = false
 
@@ -66,8 +69,11 @@ Config.Progressbar = false
 Config.SellTimeMin = 8000 -- 8 Seconds
 Config.SellTimeMax = 15000 -- 15 Seconds
 
--- Currency
+-- Currency VORP // SETTING AVAIBLE IN VORP VERSION
 Config.CurrencyType = 0 -- VORP ONLY ( 0 = money, 1 = gold, 2 = rol )
+
+-- Currency RSG // SETTING AVAIBLE IN RSG VERSION
+Config.CurrencyType = "cash" -- TYPE OF CURRENCY TO USE
 
 -- Drug items settings
 Config.Drugs = {
