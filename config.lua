@@ -147,6 +147,7 @@ Config.MapNotification = function(zone, x, y, z, title, text)
 end
 
 -- Blocked NPCs, for these NPCs players cannot sell
+Config.BlockAllNPCsSpawnedByOtherScripts = true -- If true any NPC that has ben spawned by a script is blocked, recommended to use
 Config.BlockedNPC = {
  -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
 }
